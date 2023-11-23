@@ -9,7 +9,7 @@ def get_db_connection():
         port="5432", # Usually port number 5432 for PostgreSQL
         database="phonedb",
         user="postgres",
-        password="pac112") # Change to your own pgAdmin postgres user password
+        password="******") # Change to your own pgAdmin postgres user password
     return conn
 
 simple = [
